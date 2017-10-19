@@ -1,0 +1,10 @@
+# Ignore Everything
+*
+
+# Except self
+!.gitignore
+# And except these setup files
+!Brewfile
+!.alias
+!.bash_profile
+!README.md
