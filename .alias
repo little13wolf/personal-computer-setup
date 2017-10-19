@@ -1,0 +1,34 @@
+# Alias File
+alias aliases='subl ~/.alias'
+
+alias dev='cd ~/Development'
+
+alias ll='ls -la'
+
+alias compass-watch='compass watch --sass-dir sass --css-dir css'
+
+# Homebrew Cleanup
+alias brew-clean='brew update; brew cleanup; brew doctor;'
+
+# Git Shortcuts
+alias status='git status'
+alias checkout='git checkout'
+alias add='git add'
+alias commit='git commit -m'
+alias push='git push origin'
+alias pushf='git push --force origin'
+alias pull='git pull origin'
+alias branch='git branch'
+alias mkbranch='git branch -b'
+alias rmbranch='git branch -D'
+alias stash='git stash'
+alias unstash='git stash pop'
+
+# Apache
+alias apache-start='sudo apachectl start'
+alias apache-stop='sudo apachectl stop'
+alias apache-restart='sudo apachectl restart'
+
+# mySQL
+alias mysql-start='brew services start mysql'
+alias mysql-stop='brew services stop mysql'
